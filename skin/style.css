@@ -1,0 +1,8 @@
+#downloads-custom-button{
+  list-style-image: url(chrome://downloads-button/skin/images/iconSmall.png);
+}
+
+#downloads-custom-button [cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > #downloads-custom-button {
+  list-style-image: url(chrome://downloads-button/skin/images/iconLarge.png);
+}
